@@ -6,5 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Arsinex\\Currency\\CurrencyServiceProvider' => $baseDir . '/src/CurrencyServiceProvider.php',
+    'Arsinex\\Currency\\Money' => $baseDir . '/src/Money.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );

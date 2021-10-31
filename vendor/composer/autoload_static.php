@@ -21,6 +21,8 @@ class ComposerStaticInit1aace8aef3d0770bcc535fc04549929d
     );
 
     public static $classMap = array (
+        'Arsinex\\Currency\\CurrencyServiceProvider' => __DIR__ . '/../..' . '/src/CurrencyServiceProvider.php',
+        'Arsinex\\Currency\\Money' => __DIR__ . '/../..' . '/src/Money.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
