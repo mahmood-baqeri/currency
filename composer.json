@@ -1,18 +1,15 @@
 {
     "name": "arsinex/currency",
     "description": "digital maney , laravel , currency",
-    "autoload": {
-        "psr-4": {
-
-        }
-    },
     "authors": [
         {
             "name": "Mahmood Bagheri",
             "email": "mail.mahmood.bagheri@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=5.5.0"
+    },
     "autoload": {
         "psr-4": {
             "Arsinex\\Currency\\": "src/"

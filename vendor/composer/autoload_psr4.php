@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Arsinex\\Currency\\' => array($baseDir . '/packages/Arsinex/Currency/src'),
+    'Arsinex\\Currency\\' => array($baseDir . '/src'),
 );

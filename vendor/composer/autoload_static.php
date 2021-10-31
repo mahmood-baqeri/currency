@@ -16,7 +16,7 @@ class ComposerStaticInit1aace8aef3d0770bcc535fc04549929d
     public static $prefixDirsPsr4 = array (
         'Arsinex\\Currency\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/packages/Arsinex/Currency/src',
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
