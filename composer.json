@@ -31,5 +31,10 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://github.com/mahmood-baqeri/currency"
+        }
+    ]
 }
