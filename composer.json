@@ -1,6 +1,8 @@
 {
     "name": "arsinex/currency",
     "description": "digital maney , laravel , currency",
+    "keywords": ["digital maney , laravel , currency"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Mahmood Bagheri",
@@ -15,10 +17,7 @@
             "Arsinex\\Currency\\": "src/"
         }
     },
-
-    "version": "1.0.0",
-
-
+    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
